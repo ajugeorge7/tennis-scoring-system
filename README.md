@@ -12,11 +12,16 @@ The final score can be obtained using `score()` method in the `Match` class.
 
 #### Prerequisites
 * Java 8
-* Maven
+* Maven 3+
 
 #### How to Build
 ```bash
 mvn clean install
+```
+
+It creates a shaded jar, which can be tested by running:
+```bash
+java -jar target/tennis-scoring-system-1.0-SNAPSHOT.jar
 ```
 
 #### Tools Used
